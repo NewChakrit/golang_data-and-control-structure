@@ -1,6 +1,8 @@
 package main
 
-import "github.com/NewChakrit/golang_data-and-control-structure/map"
+import (
+	_struct "github.com/NewChakrit/golang_data-and-control-structure/struct"
+)
 
 func main() {
 
@@ -8,5 +10,6 @@ func main() {
 	//control_structure.ControlStructure()
 	//iteration.Iteration()
 	//array_and_slice.ArraySlice()
-	_map.Map()
+	//_map.Map()
+	_struct.Struct()
 }

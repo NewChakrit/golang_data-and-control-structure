@@ -40,4 +40,10 @@ func Map() {
 	} else {
 		fmt.Println("Pear not found inmap")
 	}
+
+	//เคสไหนควรใช้ map บ้าง
+
+	//Fast Lookup = search จาก key จะค้นหาได้ไวกว่า search จาก array (Caching)
+	//Unique Key = key สำคัญ ซ้ำกันไม่ได้ พวก map จะช่วยในการจัดการข้อมูลที่ต้องมี unique ได้
+	//Dynamic = ขนาด data เป็น dynamic และสามารถเพิ่ม / ลบข้อมูลได้ตลอดเวลา
 }
