@@ -1,9 +1,6 @@
 package main
 
-import (
-	"fmt"
-	"github.com/NewChakrit/golang_data-and-control-structure/function"
-)
+import _interface "github.com/NewChakrit/golang_data-and-control-structure/interface"
 
 func main() {
 
@@ -13,11 +10,14 @@ func main() {
 	//array_and_slice.ArraySlice()
 	//_map.Map()
 	//_struct.Struct()
-	function.SayHello("New", 28)
-	function.SayHello("Wen", 28)
+	//function.SayHello("New", 28)
+	//function.SayHello("Wen", 28)
+	//
+	//result := function.Add(5, 4)
+	//fmt.Println("Result function Add = ", result)
 
-	result := function.Add(5, 4)
-	fmt.Println("Result function Add = ", result)
+	//function.PrintName()
 
-	function.PrintName()
+	//_interface.Interface()
+	_interface.Interface2()
 }
