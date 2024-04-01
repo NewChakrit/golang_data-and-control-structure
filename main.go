@@ -1,6 +1,6 @@
 package main
 
-import _interface "github.com/NewChakrit/golang_data-and-control-structure/interface"
+import "github.com/NewChakrit/golang_data-and-control-structure/error"
 
 func main() {
 
@@ -19,5 +19,11 @@ func main() {
 	//function.PrintName()
 
 	//_interface.Interface()
-	_interface.Interface2()
+	//_interface.Interface2()
+
+	//-- pointer
+	//pointer.Pointer()
+
+	// -- error
+	error.Error()
 }
